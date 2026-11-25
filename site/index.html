@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta property="og:image" content="https://krwmarketingsolutions.com/.netlify/og-image/ad2ff3c24382fea40430a15f5a43f5e6.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRW Marketing Solutions – Performance Lead Generation for Law Firms</title>
+  <meta name="description" content="KRW Marketing Solutions generates exclusive, compliant leads in house for plaintiff-side law firms across MVA, SSDI, and Mass Tort.">
+  <meta name="author" content="KRW Marketing Solutions LLC">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ============================================================
+       TOKENS
+       ============================================================ */
+    :root {
+      --green-900: #12261B;
+      --green-800: #1B3A29;
+      --green-700: #24503A;
+      --green-600: #2F6A4B;
+      --green-100: #E4ECE4;
+      --green-050: #F0F4EF;
+
+      --cream-050: #FBF8F1;
+      --cream-100: #F5EFE2;
+      --cream-200: #ECE3CF;
+
+      --tan-700: #8B6B45;
+      --tan-600: #A98860;
+      --tan-500: #C8A97E;
+      --tan-200: #E9DCC4;
+      --tan-100: #F3ECDD;
+
+      --ink: #24231F;
+      --ink-soft: #5E5A50;
+      --ink-muted: #8A857A;
+      --line: rgba(36, 35, 31, 0.10);
+
+      --serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+      --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+      --radius-lg: 22px;
+      --radius-md: 14px;
+      --radius-sm: 8px;
+      --shadow-soft: 0 1px 2px rgba(36, 35, 31, 0.04), 0 10px 30px rgba(36, 35, 31, 0.06);
+      --shadow-lift: 0 2px 4px rgba(36, 35, 31, 0.05), 0 22px 48px rgba(36, 35, 31, 0.10);
+
+      --container: 1240px;
+      --nav-h: 84px;
+    }
+
+    /* ============================================================
+       BASE
+       ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--ink);
+      background: var(--cream-050);
+      -webkit-font-smoothing: antialiased;
+    }
+    img, svg { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; cursor: pointer; }
+    h1, h2, h3, h4 { margin: 0; font-family: var(--serif); font-weight: 600; line-height: 1.1; color: var(--ink); }
+    p { margin: 0; }
+    ul { margin: 0; padding: 0; list-style: none; }
+
+    :focus-visible { outline: 2px solid var(--tan-600); outline-offset: 3px; border-radius: 4px; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+      html { scroll-behavior: auto; }
+    }
+
+    .container { width: 100%; max-width: var(--container); margin: 0 auto; padding: 0 24px; }
+    .section { padding: 96px 0; }
+    .section--tight { padding: 64px 0; }
+
+    /* Type scale */
+    .h-display { font-size: clamp(2.6rem, 5.2vw, 4.4rem); font-weight: 600; letter-spacing: -0.01em; line-height: 1.02; }
+    .h1 { font-size: clamp(2.3rem, 4.2vw, 3.6rem); letter-spacing: -0.01em; }
+    .h2 { font-size: clamp(1.9rem, 3vw, 2.6rem); }
+    .h3 { font-size: 1.75rem; }
+    .h4 { font-size: 1.45rem; }
+    .lead { font-size: 1.2rem; line-height: 1.6; color: var(--ink-soft); }
+    .body-sm { font-size: 0.95rem; color: var(--ink-soft); }
+    .serif-italic { font-family: var(--serif); font-style: italic; font-weight: 500; }
+
+    .section-head { text-align: center; max-width: 780px; margin: 0 auto 64px; }
+    .section-head .h1 { margin-bottom: 20px; }
+
+    /* Badge pill (Palo's soft orange badge → soft tan) */
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 16px; border-radius: 999px;
+      background: var(--tan-100); color: var(--tan-700);
+      font-size: 0.9rem; font-weight: 500; margin-bottom: 22px;
+    }
+    .badge svg { width: 16px; height: 16px; }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      padding: 14px 26px; border-radius: 10px; border: 1px solid transparent;
+      font-size: 0.98rem; font-weight: 500; line-height: 1;
+      transition: background-color .2s ease, color .2s ease, border-color .2s ease, transform .2s ease;
+      white-space: nowrap;
+    }
+    .btn svg { width: 18px; height: 18px; }
+    .btn--primary { background: var(--green-800); color: var(--cream-050); }
+    .btn--primary:hover { background: var(--green-700); }
+    .btn--secondary { background: transparent; color: var(--green-800); border-color: rgba(27, 58, 41, 0.35); }
+    .btn--secondary:hover { background: var(--green-050); border-color: var(--green-800); }
+    .btn--light { background: var(--cream-050); color: var(--green-800); }
+    .btn--light:hover { background: var(--cream-200); }
+    .btn--tan { background: var(--tan-500); color: var(--green-900); }
+    .btn--tan:hover { background: var(--tan-600); }
+    .btn--sm { padding: 11px 20px; font-size: 0.92rem; }
+    .btn--full { width: 100%; }
+
+    /* ============================================================
+       NAV
+       ============================================================ */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+      background: rgba(251, 248, 241, 0.94);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav__inner { height: var(--nav-h); display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand__mark {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: var(--green-800); color: var(--tan-500);
+      display: grid; place-items: center;
+      font-family: var(--serif); font-weight: 700; font-size: 1.15rem; letter-spacing: 0.02em;
+    }
+    .brand__name { font-family: var(--serif); font-weight: 600; font-size: 1.55rem; letter-spacing: 0.01em; color: var(--green-900); line-height: 1; }
+    .brand__sub { display: block; font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.16em; color: var(--tan-700); margin-top: 3px; font-weight: 500; }
+
+    .nav__links { display: none; align-items: center; gap: 34px; }
+    @media (min-width: 1024px) { .nav__links { display: flex; } }
+
+    .nav__link, .nav__drop > button {
+      position: relative; background: none; border: 0; padding: 6px 0;
+      font-size: 0.95rem; font-weight: 500; color: var(--ink);
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .nav__link::after, .nav__drop > button::after {
+      content: ""; position: absolute; left: 0; bottom: 0; height: 2px; width: 0;
+      background: var(--tan-600); transition: width .25s ease;
+    }
+    .nav__link:hover::after, .nav__drop:hover > button::after { width: 100%; }
+    .nav__drop { position: relative; }
+    .nav__drop svg { width: 15px; height: 15px; transition: transform .2s ease; }
+    .nav__drop:hover svg { transform: rotate(180deg); }
+    .nav__menu {
+      position: absolute; top: calc(100% + 10px); left: 0; min-width: 210px;
+      background: var(--cream-050); border: 1px solid var(--line); border-radius: 12px;
+      box-shadow: var(--shadow-lift); padding: 8px 0;
+      opacity: 0; visibility: hidden; transform: translateY(6px);
+      transition: opacity .18s ease, transform .18s ease, visibility .18s;
+    }
+    .nav__drop:hover .nav__menu, .nav__drop:focus-within .nav__menu { opacity: 1; visibility: visible; transform: translateY(0); }
+    .nav__menu a { display: block; padding: 9px 16px; font-size: 0.92rem; color: var(--ink); }
+    .nav__menu a:hover { background: var(--green-050); color: var(--green-800); }
+
+    .nav__toggle {
+      display: inline-grid; place-items: center; width: 42px; height: 42px;
+      border: 1px solid var(--line); border-radius: 10px; background: transparent; color: var(--ink);
+    }
+    .nav__toggle svg { width: 22px; height: 22px; }
+    @media (min-width: 1024px) { .nav__toggle { display: none; } }
+
+    .nav__mobile {
+      display: none; border-top: 1px solid var(--line); padding: 16px 0 24px;
+      background: var(--cream-050);
+    }
+    .nav__mobile.is-open { display: block; }
+    .nav__mobile a, .nav__mobile summary { display: block; padding: 10px 0; font-weight: 500; }
+    .nav__mobile details { border-bottom: 1px solid var(--line); }
+    .nav__mobile summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+    .nav__mobile summary::-webkit-details-marker { display: none; }
+    .nav__mobile details a { padding: 8px 0 8px 16px; font-weight: 400; color: var(--ink-soft); }
+    .nav__mobile .btn { margin-top: 16px; }
+
+    /* ============================================================
+       HERO
+       ============================================================ */
+    .hero {
+      position: relative; isolation: isolate; overflow: hidden;
+      padding: calc(var(--nav-h) + 72px) 0 80px;
+      background: linear-gradient(180deg, var(--cream-050) 0%, var(--cream-100) 55%, var(--green-050) 100%);
+    }
+    .hero__glow { position: absolute; z-index: -1; border-radius: 50%; filter: blur(60px); pointer-events: none; }
+    .hero__glow--a { top: -140px; right: -140px; width: 560px; height: 560px; background: radial-gradient(closest-side, rgba(47,106,75,0.20), rgba(47,106,75,0)); }
+    .hero__glow--b { bottom: -200px; left: -160px; width: 620px; height: 620px; background: radial-gradient(closest-side, rgba(200,169,126,0.28), rgba(200,169,126,0)); }
+
+    .hero__grid { display: grid; gap: 48px; align-items: center; }
+    @media (min-width: 1024px) { .hero__grid { grid-template-columns: 1.05fr 0.95fr; gap: 64px; } }
+
+    .hero__sub { font-size: 1.55rem; color: var(--green-700); margin: 10px 0 22px; }
+    .hero__text { font-size: 1.12rem; color: var(--ink); max-width: 620px; margin-bottom: 18px; }
+    .hero__note { font-size: 1.12rem; color: var(--ink-muted); max-width: 620px; margin-bottom: 28px; }
+
+    .hero__pill {
+      display: inline-flex; align-items: center; gap: 12px;
+      padding: 14px 22px; border-radius: 14px;
+      background: rgba(27, 58, 41, 0.06); border: 1px solid rgba(27, 58, 41, 0.18);
+      color: var(--green-800); font-weight: 600; margin-bottom: 32px;
+    }
+    .hero__pill svg { width: 20px; height: 20px; }
+    .hero__actions { display: flex; flex-wrap: wrap; gap: 14px; }
+
+    .hero__visual {
+      border-radius: var(--radius-lg); overflow: hidden;
+      background: var(--cream-050); border: 1px solid var(--line);
+      box-shadow: var(--shadow-lift);
+    }
+    .hero__visual svg { width: 100%; height: auto; }
+
+    .hero__slide { display: none; }
+    .hero__slide.is-active { display: block; }
+
+    .hero__dots { display: flex; justify-content: center; gap: 12px; margin: 48px 0 40px; }
+    .hero__dot {
+      width: 12px; height: 12px; border-radius: 999px; border: 0; padding: 0;
+      background: rgba(27, 58, 41, 0.28); transition: width .3s ease, background-color .3s ease;
+    }
+    .hero__dot:hover { background: rgba(27, 58, 41, 0.5); }
+    .hero__dot.is-active { width: 34px; background: var(--green-800); }
+
+    .hero__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; max-width: 720px; margin: 0 auto; text-align: center; }
+    .hero__stat-num { font-family: var(--serif); font-weight: 600; font-size: 2.4rem; color: var(--green-800); line-height: 1; margin-bottom: 8px; }
+    .hero__stat-label { font-size: 0.92rem; color: var(--ink-muted); }
+    @media (max-width: 640px) { .hero__stats { grid-template-columns: 1fr; gap: 24px; } }
+
+    /* ============================================================
+       LOGO STRIP
+       ============================================================ */
+    .logos { text-align: center; }
+    .logos p { font-family: var(--serif); font-size: 1.6rem; font-weight: 500; color: var(--ink-soft); }
+    .logos__row { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px 48px; opacity: 0.85; }
+    .logos__item {
+      font-family: var(--serif); font-size: 1.4rem; font-weight: 600; letter-spacing: 0.02em;
+      color: var(--ink-soft); padding: 10px 6px; border-bottom: 2px solid transparent;
+    }
+
+    /* ============================================================
+       CARDS (shared)
+       ============================================================ */
+    .card {
+      position: relative; overflow: hidden;
+      background: var(--cream-050); border: 1px solid var(--line);
+      border-radius: var(--radius-lg); box-shadow: var(--shadow-soft);
+    }
+    .card--tint::before {
+      content: ""; position: absolute; inset: 0; z-index: 0;
+      background: linear-gradient(135deg, var(--tint-a, rgba(47,106,75,0.08)), var(--tint-b, rgba(200,169,126,0.10)));
+    }
+    .card > * { position: relative; z-index: 1; }
+
+    .icon-box {
+      width: 58px; height: 58px; border-radius: 16px; flex-shrink: 0;
+      background: var(--cream-050); box-shadow: 0 4px 16px rgba(36,35,31,0.08);
+      display: grid; place-items: center; color: var(--green-700);
+    }
+    .icon-box svg { width: 26px; height: 26px; }
+    .icon-box--tan { color: var(--tan-700); }
+
+    .check-list li { display: flex; align-items: center; gap: 10px; font-size: 0.95rem; color: var(--ink-soft); }
+    .check-list li + li { margin-top: 10px; }
+    .check-list svg { width: 17px; height: 17px; flex-shrink: 0; color: var(--green-600); }
+
+    /* ============================================================
+       VERTICALS
+       ============================================================ */
+    .verticals__grid { display: grid; gap: 32px; }
+    @media (min-width: 768px) { .verticals__grid { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1100px) { .verticals__grid { grid-template-columns: repeat(3, 1fr); } .vcard { padding: 28px; } .vcard__stats { gap: 10px; } }
+
+    .vcard { padding: 32px; }
+    .vcard__head { display: flex; align-items: center; gap: 18px; margin-bottom: 22px; }
+    .vcard__meta { display: flex; align-items: center; gap: 6px; font-size: 0.92rem; color: var(--ink-muted); margin-top: 4px; }
+    .vcard__meta svg { width: 15px; height: 15px; }
+    .vcard__desc { font-size: 1.05rem; color: var(--ink-soft); margin-bottom: 24px; }
+    .vcard__stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 26px; }
+    @media (max-width: 520px) { .vcard__stats { grid-template-columns: 1fr; } }
+    .vcard__stat { text-align: center; padding: 16px 10px; border-radius: 12px; background: rgba(251, 248, 241, 0.7); }
+    .vcard__stat-num { font-family: var(--serif); font-weight: 600; font-size: 1.7rem; color: var(--green-700); line-height: 1; margin-bottom: 6px; }
+    .vcard__stat-label { font-size: 0.8rem; color: var(--ink-muted); line-height: 1.35; }
+    .vcard__features { margin-bottom: 26px; }
+    .vcard__features h4 { font-family: var(--sans); font-size: 0.9rem; font-weight: 600; margin-bottom: 12px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { padding: 7px 14px; border-radius: 999px; background: rgba(251, 248, 241, 0.85); border: 1px solid var(--line); font-size: 0.9rem; }
+
+    /* ============================================================
+       PROOF
+       ============================================================ */
+    .proof__stats { display: grid; gap: 28px; margin-bottom: 96px; }
+    @media (min-width: 640px) { .proof__stats { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1024px) { .proof__stats { grid-template-columns: repeat(4, 1fr); } }
+    .stat-card { text-align: center; padding: 40px 24px; }
+    .stat-card__num { font-family: var(--serif); font-weight: 600; font-size: 3.2rem; line-height: 1; color: var(--green-800); margin-bottom: 14px; }
+    .stat-card__title { font-size: 1.5rem; margin-bottom: 8px; }
+    .stat-card__desc { font-size: 0.95rem; color: var(--ink-muted); }
+
+    .proof__sub { text-align: center; margin-bottom: 48px; }
+
+
+    .awards { background: var(--cream-100); border-radius: var(--radius-lg); padding: 48px 32px; }
+    .awards .h2 { text-align: center; margin-bottom: 40px; }
+    .awards__grid { display: grid; gap: 20px; }
+    @media (min-width: 640px) { .awards__grid { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1024px) { .awards__grid { grid-template-columns: repeat(4, 1fr); } }
+    .award { text-align: center; padding: 28px 20px; background: var(--cream-050); border-radius: 16px; border: 1px solid var(--line); }
+    .award__ring {
+      width: 66px; height: 66px; border-radius: 50%; margin: 0 auto 16px;
+      display: grid; place-items: center; background: var(--cream-050);
+      box-shadow: 0 2px 10px rgba(36,35,31,0.08); color: var(--green-700);
+    }
+    .award__ring svg { width: 28px; height: 28px; }
+    .award h4 { font-family: var(--sans); font-size: 1rem; font-weight: 600; margin-bottom: 6px; }
+    .award p { font-size: 0.85rem; color: var(--ink-muted); }
+
+    /* ============================================================
+       WHY KRW
+       ============================================================ */
+    .why { background: var(--cream-100); }
+    .why__grid { display: grid; gap: 28px; margin-bottom: 72px; }
+    @media (min-width: 768px) { .why__grid { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1024px) { .why__grid { grid-template-columns: repeat(3, 1fr); } }
+    .wcard { padding: 32px; }
+    .wcard__head { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 18px; }
+    .wcard__head .h4 { padding-top: 12px; }
+    .wcard__desc { font-size: 0.98rem; color: var(--ink-soft); margin-bottom: 22px; }
+
+    .cta-box {
+      background: var(--green-800); color: var(--cream-050);
+      border-radius: var(--radius-lg); padding: 56px 32px; text-align: center;
+    }
+    .cta-box .h2 { color: var(--cream-050); margin-bottom: 16px; }
+    .cta-box .lead { color: rgba(251, 248, 241, 0.82); max-width: 640px; margin: 0 auto 32px; }
+    .cta-box__stats {
+      display: grid; gap: 32px; margin-top: 48px; padding-top: 40px;
+      border-top: 1px solid rgba(251, 248, 241, 0.2);
+    }
+    @media (min-width: 640px) { .cta-box__stats { grid-template-columns: repeat(3, 1fr); } }
+    .cta-box__num { font-family: var(--serif); font-weight: 600; font-size: 2.9rem; line-height: 1; margin-bottom: 8px; color: var(--tan-500); }
+    .cta-box__label { color: rgba(251, 248, 241, 0.85); }
+
+    /* ============================================================
+       FINAL CTA
+       ============================================================ */
+    .final {
+      position: relative; overflow: hidden; color: var(--cream-050);
+      background: linear-gradient(135deg, var(--green-900) 0%, var(--green-800) 55%, var(--green-700) 100%);
+    }
+    .final::before { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at top left, rgba(251,248,241,0.10), transparent 55%); }
+    .final::after { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at bottom right, rgba(200,169,126,0.22), transparent 55%); }
+    .final .container { position: relative; z-index: 1; text-align: center; max-width: 860px; }
+    .final .h1 { color: var(--cream-050); margin-bottom: 20px; }
+    .final .lead { color: rgba(251, 248, 241, 0.85); margin-bottom: 36px; }
+    .final__checks { display: grid; gap: 14px; max-width: 640px; margin: 0 auto 40px; text-align: left; }
+    @media (min-width: 640px) { .final__checks { grid-template-columns: 1fr 1fr; } }
+    .final__checks li { display: flex; align-items: center; gap: 12px; font-size: 0.95rem; color: rgba(251,248,241,0.9); }
+    .final__checks svg { width: 20px; height: 20px; color: var(--tan-500); flex-shrink: 0; }
+    .final__direct { margin-top: 44px; padding-top: 32px; border-top: 1px solid rgba(251,248,241,0.2); }
+    .final__direct p { color: rgba(251,248,241,0.75); font-size: 0.92rem; margin-bottom: 16px; }
+    .final__direct a { display: inline-flex; align-items: center; gap: 8px; color: var(--cream-050); font-size: 0.95rem; }
+    .final__direct svg { width: 16px; height: 16px; color: var(--tan-500); }
+    .final__stats { display: grid; gap: 24px; margin-top: 44px; padding-top: 32px; border-top: 1px solid rgba(251,248,241,0.2); }
+    @media (min-width: 640px) { .final__stats { grid-template-columns: repeat(3, 1fr); } }
+    .final__stat-num { font-family: var(--serif); font-weight: 600; font-size: 1.9rem; line-height: 1; margin-bottom: 6px; color: var(--tan-500); }
+    .final__stat-label { font-size: 0.9rem; color: rgba(251,248,241,0.75); }
+    .final__closing { margin-top: 36px; font-size: 0.95rem; color: rgba(251,248,241,0.7); max-width: 640px; margin-left: auto; margin-right: auto; }
+
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    .footer { background: var(--green-900); color: rgba(251,248,241,0.8); }
+    .footer__top { padding: 64px 0 48px; display: grid; gap: 48px; }
+    @media (min-width: 1024px) { .footer__top { grid-template-columns: 1fr 1fr; } }
+    .footer .brand__mark { background: var(--tan-500); color: var(--green-900); }
+    .footer .brand__name { color: var(--cream-050); }
+    .footer .brand__sub { color: var(--tan-500); }
+    .footer__about { margin-top: 20px; max-width: 480px; line-height: 1.7; }
+    .footer h4 { font-family: var(--sans); font-size: 1rem; font-weight: 600; color: var(--cream-050); margin-bottom: 22px; }
+    .footer__cols { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .footer__cols li + li { margin-top: 12px; }
+    .footer__cols a { position: relative; font-size: 0.92rem; }
+    .footer__cols a::after { content: ""; position: absolute; left: 0; bottom: -3px; height: 1px; width: 0; background: var(--tan-500); transition: width .25s ease; }
+    .footer__cols a:hover { color: var(--cream-050); }
+    .footer__cols a:hover::after { width: 100%; }
+    .footer__mid { padding: 40px 0; border-top: 1px solid rgba(251,248,241,0.1); display: grid; gap: 32px; }
+    @media (min-width: 768px) { .footer__mid { grid-template-columns: 1fr 1fr; } }
+    .footer__mid a { display: inline-flex; align-items: center; gap: 10px; font-size: 0.92rem; }
+    .footer__mid a:hover { color: var(--cream-050); }
+    .footer__mid svg { width: 16px; height: 16px; color: var(--tan-500); }
+    .footer__mid li + li { margin-top: 12px; }
+    .footer__bottom { padding: 24px 0; border-top: 1px solid rgba(251,248,241,0.1); font-size: 0.88rem; color: rgba(251,248,241,0.55); display: flex; flex-direction: column; gap: 12px; align-items: center; }
+    @media (min-width: 768px) { .footer__bottom { flex-direction: row; justify-content: space-between; } }
+    .footer__policies { display: flex; gap: 28px; }
+    .footer__policies a:hover { color: var(--cream-050); }
+  </style>
+</head>
+
+<body>
+
+  <!-- ==================================================================
+       NAV
+       ================================================================== -->
+  <nav class="nav" aria-label="Primary">
+    <div class="container">
+      <div class="nav__inner">
+        <a class="brand" href="#top" aria-label="KRW Marketing Solutions home">
+          <!-- Swap the mark + wordmark for your logo image when ready -->
+          <span class="brand__mark">KRW</span>
+          <span>
+            <span class="brand__name">KRW</span>
+            <span class="brand__sub">MARKETING SOLUTIONS</span>
+          </span>
+        </a>
+
+        <div class="nav__links">
+          <a class="nav__link" href="#top">Home</a>
+
+          <div class="nav__drop">
+            <button type="button" aria-haspopup="true">Verticals
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="nav__menu">
+              <a href="#verticals">Motor Vehicle Accident</a>
+              <a href="#verticals">Social Security Disability</a>
+              <a href="#verticals">Mass Tort</a>
+            </div>
+          </div>
+
+          <div class="nav__drop">
+            <button type="button" aria-haspopup="true">Why KRW
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="nav__menu">
+              <a href="#why">About Us</a>
+            </div>
+          </div>
+
+          <div class="nav__drop">
+            <button type="button" aria-haspopup="true">Insights
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            <div class="nav__menu">
+              <a href="#">Blog</a>
+              <a href="#">FAQ</a>
+              <a href="#">Cost Per Case Guide</a>
+            </div>
+          </div>
+
+          <a class="nav__link" href="#proof">Case Studies</a>
+          <a class="nav__link" href="#contact">Contact</a>
+          <a class="btn btn--primary btn--sm" href="#contact">Get Started
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <button class="nav__toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNav">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <div class="nav__mobile" id="mobileNav">
+        <a href="#top">Home</a>
+        <details>
+          <summary>Verticals <span>+</span></summary>
+          <a href="#verticals">Motor Vehicle Accident</a>
+          <a href="#verticals">Social Security Disability</a>
+          <a href="#verticals">Mass Tort</a>
+        </details>
+        <details>
+          <summary>Why KRW <span>+</span></summary>
+          <a href="#why">About Us</a>
+        </details>
+        <details>
+          <summary>Insights <span>+</span></summary>
+          <a href="#">Blog</a>
+          <a href="#">FAQ</a>
+          <a href="#">Cost Per Case Guide</a>
+        </details>
+        <a href="#proof">Case Studies</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--primary btn--full" href="#contact">Get Started</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- ==================================================================
+         HERO (carousel: MVA / SSDI / Mass Tort)
+         ================================================================== -->
+    <section class="hero">
+      <div class="hero__glow hero__glow--a" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--b" aria-hidden="true"></div>
+
+      <div class="container">
+
+        <!-- Slide 1: MVA -->
+        <div class="hero__slide is-active" data-slide="0">
+          <div class="hero__grid">
+            <div>
+              <h1 class="h-display">Exclusive Leads That Turn Into Signed Cases</h1>
+              <p class="hero__sub serif-italic">Performance Lead Generation for Personal Injury Law</p>
+              <p class="hero__text">KRW Marketing Solutions generates motor vehicle accident leads in house — our own media buying, our own landing pages, our own qualification — and routes them to your firm in real time so your intake team spends its day signing, not sorting.</p>
+              <p class="hero__note">TCPA-compliant, exclusive, and priced on performance — with attribution from first click to signed retainer.</p>
+              <div class="hero__pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                Qualified, Exclusive Retainers
+              </div>
+              <div class="hero__actions">
+                <a class="btn btn--primary" href="#contact">Get Started Today
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <a class="btn btn--secondary" href="#proof">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+                  See Success Stories
+                </a>
+              </div>
+            </div>
+            <div class="hero__visual" aria-hidden="true">
+              <!-- Abstract lead-flow illustration: campaigns → KRW → firms -->
+              <svg viewBox="0 0 640 520" xmlns="http://www.w3.org/2000/svg" role="img">
+                <rect width="640" height="520" fill="#FBF8F1"/>
+                <g opacity="0.55" stroke="#ECE3CF" stroke-width="1">
+                  <path d="M0 80H640M0 160H640M0 240H640M0 320H640M0 400H640M0 480H640"/>
+                  <path d="M80 0V520M160 0V520M240 0V520M320 0V520M400 0V520M480 0V520M560 0V520"/>
+                </g>
+                <!-- flow paths -->
+                <g fill="none" stroke="#C8A97E" stroke-width="2.5" stroke-linecap="round">
+                  <path d="M170 120 C 250 120, 250 260, 320 260"/>
+                  <path d="M170 260 C 240 260, 240 260, 320 260"/>
+                  <path d="M170 400 C 250 400, 250 260, 320 260"/>
+                  <path d="M320 260 C 400 260, 400 180, 470 180" stroke="#2F6A4B"/>
+                  <path d="M320 260 C 400 260, 400 340, 470 340" stroke="#2F6A4B"/>
+                </g>
+                <!-- lead sources -->
+                <g fill="#F5EFE2" stroke="#C8A97E" stroke-width="2">
+                  <rect x="30" y="90" width="140" height="60" rx="12"/>
+                  <rect x="30" y="230" width="140" height="60" rx="12"/>
+                  <rect x="30" y="370" width="140" height="60" rx="12"/>
+                </g>
+                <g font-family="Inter, sans-serif" fill="#8B6B45" text-anchor="middle">
+                  <text x="100" y="116" font-size="13" font-weight="600" fill="#24231F">Paid Social</text>
+                  <text x="100" y="134" font-size="11">Meta campaigns</text>
+                  <text x="100" y="256" font-size="13" font-weight="600" fill="#24231F">Paid Search</text>
+                  <text x="100" y="274" font-size="11">Google Ads</text>
+                  <text x="100" y="396" font-size="13" font-weight="600" fill="#24231F">Organic Search</text>
+                  <text x="100" y="414" font-size="11">SEO &amp; content</text>
+                </g>
+                <text x="32" y="66" text-anchor="start" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="17" fill="#8B6B45">In-house lead generation</text>
+                <!-- KRW hub -->
+                <circle cx="320" cy="260" r="58" fill="#1B3A29"/>
+                <circle cx="320" cy="260" r="70" fill="none" stroke="#1B3A29" stroke-opacity="0.18" stroke-width="2"/>
+                <text x="320" y="252" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="700" font-size="30" fill="#C8A97E">KRW</text>
+                <text x="320" y="274" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#E9DCC4">Qualify &amp; route</text>
+                <!-- buyers -->
+                <g fill="#E4ECE4" stroke="#2F6A4B" stroke-width="2">
+                  <rect x="470" y="140" width="140" height="80" rx="12"/>
+                  <rect x="470" y="300" width="140" height="80" rx="12"/>
+                </g>
+                <g font-family="Inter, sans-serif" text-anchor="middle">
+                  <text x="540" y="176" font-size="13" font-weight="600" fill="#12261B">Law Firms</text>
+                  <text x="540" y="196" font-size="11" fill="#2F6A4B">Direct retainers</text>
+                  <text x="540" y="336" font-size="13" font-weight="600" fill="#12261B">Legal Networks</text>
+                  <text x="540" y="356" font-size="11" fill="#2F6A4B">Volume buyers</text>
+                </g>
+                <text x="540" y="66" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="17" fill="#24503A">Delivered to</text>
+                <!-- scales of justice glyph -->
+                <g fill="none" stroke="#24503A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(527 88) scale(1.1)">
+                  <path d="M12 3v18M7 21h10M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/>
+                  <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1ZM16 16l3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/>
+                </g>
+                <!-- chart -->
+                <g transform="translate(60 440)">
+                  <rect width="180" height="50" rx="10" fill="#F5EFE2"/>
+                  <polyline points="14,36 50,28 86,32 122,18 158,12" fill="none" stroke="#2F6A4B" stroke-width="2.5" stroke-linecap="round"/>
+                  <circle cx="158" cy="12" r="4" fill="#C8A97E"/>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: SSDI -->
+        <div class="hero__slide" data-slide="1">
+          <div class="hero__grid">
+            <div>
+              <h1 class="h-display">Disability Claimants, Delivered Ready to Sign</h1>
+              <p class="hero__sub serif-italic">Performance Lead Generation for Social Security Disability</p>
+              <p class="hero__text">Pre-screened SSDI leads from our own owned-and-operated traffic, filtered on work history, age, and treatment before they ever reach your intake line.</p>
+              <p class="hero__note">Live transfers and real-time posts available, with duplicate protection and a straightforward return policy.</p>
+              <div class="hero__pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                Pre-Qualified Claimants
+              </div>
+              <div class="hero__actions">
+                <a class="btn btn--primary" href="#contact">Get Started Today
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <a class="btn btn--secondary" href="#proof">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+                  See Success Stories
+                </a>
+              </div>
+            </div>
+            <div class="hero__visual" aria-hidden="true">
+              <svg viewBox="0 0 640 520" xmlns="http://www.w3.org/2000/svg" role="img">
+                <rect width="640" height="520" fill="#FBF8F1"/>
+                <g opacity="0.55" stroke="#ECE3CF" stroke-width="1"><path d="M0 80H640M0 160H640M0 240H640M0 320H640M0 400H640M0 480H640M80 0V520M160 0V520M240 0V520M320 0V520M400 0V520M480 0V520M560 0V520"/></g>
+                <g transform="translate(90 80)">
+                  <rect width="460" height="360" rx="20" fill="#F5EFE2"/>
+                  <text x="230" y="24" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="17" fill="#8B6B45">Lead sources by performance</text>
+                  <!-- Google Paid Search: highlighted as top channel -->
+                  <rect x="30" y="40" width="400" height="52" rx="10" fill="#E4ECE4" stroke="#2F6A4B" stroke-width="2.5"/>
+                  <text x="48" y="62" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#12261B">Google Paid Search</text>
+                  <text x="48" y="80" font-family="Inter, sans-serif" font-size="11" fill="#2F6A4B">Highest lead-to-retainer rate</text>
+                  <rect x="316" y="53" width="98" height="26" rx="13" fill="#1B3A29"/>
+                  <text x="365" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#C8A97E">Top performer</text>
+                  <rect x="30" y="108" width="400" height="52" rx="10" fill="#FBF8F1" stroke="#C8A97E" stroke-width="2"/>
+                  <text x="48" y="130" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#24231F">Meta Paid Social</text>
+                  <text x="48" y="148" font-family="Inter, sans-serif" font-size="11" fill="#8B6B45">Scalable volume with in-house creative</text>
+                  <path d="M398 129l6 6 12-12" fill="none" stroke="#2F6A4B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <rect x="30" y="176" width="400" height="52" rx="10" fill="#FBF8F1" stroke="#C8A97E" stroke-width="2"/>
+                  <text x="48" y="198" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#24231F">Organic Search</text>
+                  <text x="48" y="216" font-family="Inter, sans-serif" font-size="11" fill="#8B6B45">SEO-driven, high-intent inquiries</text>
+                  <path d="M398 197l6 6 12-12" fill="none" stroke="#2F6A4B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  <rect x="30" y="250" width="400" height="86" rx="14" fill="#1B3A29"/>
+                  <text x="230" y="286" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="600" font-size="30" fill="#C8A97E">Qualified</text>
+                  <text x="230" y="312" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#E9DCC4">Every source screened before it reaches your intake</text>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Mass Tort -->
+        <div class="hero__slide" data-slide="2">
+          <div class="hero__grid">
+            <div>
+              <h1 class="h-display">Signed Plaintiffs, Not Just Inquiries</h1>
+              <p class="hero__sub serif-italic">Performance Lead Generation for Mass Tort</p>
+              <p class="hero__text">Active campaigns across Roundup, Rideshare, and Roblox, built on criteria you set and priced on what actually closes.</p>
+              <p class="hero__note">Full intake support, medical-record verification partners, and transparent cost per signed case.</p>
+              <div class="hero__pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+                Compensable Case Growth
+              </div>
+              <div class="hero__actions">
+                <a class="btn btn--primary" href="#contact">Get Started Today
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <a class="btn btn--secondary" href="#proof">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+                  See Success Stories
+                </a>
+              </div>
+            </div>
+            <div class="hero__visual" aria-hidden="true">
+              <svg viewBox="0 0 640 520" xmlns="http://www.w3.org/2000/svg" role="img">
+                <rect width="640" height="520" fill="#FBF8F1"/>
+                <g opacity="0.55" stroke="#ECE3CF" stroke-width="1"><path d="M0 80H640M0 160H640M0 240H640M0 320H640M0 400H640M0 480H640M80 0V520M160 0V520M240 0V520M320 0V520M400 0V520M480 0V520M560 0V520"/></g>
+                <!-- funnel -->
+                <g transform="translate(120 70)">
+                  <path d="M0 0h400l-60 100H60z" fill="#E9DCC4"/>
+                  <path d="M60 110h280l-50 90H110z" fill="#C8A97E"/>
+                  <path d="M110 210h180l-35 80h-110z" fill="#2F6A4B"/>
+                  <path d="M145 300h110l-15 60h-80z" fill="#1B3A29"/>
+                  <text x="200" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#8B6B45">Inquiries</text>
+                  <text x="200" y="160" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#12261B">Screened</text>
+                  <text x="200" y="256" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#FBF8F1">Verified</text>
+                  <text x="200" y="338" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="600" font-size="20" fill="#C8A97E">Signed</text>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel dots -->
+        <div class="hero__dots" role="tablist" aria-label="Verticals">
+          <button class="hero__dot is-active" type="button" role="tab" aria-selected="true" aria-label="Show Personal Injury" data-dot="0"></button>
+          <button class="hero__dot" type="button" role="tab" aria-selected="false" aria-label="Show Social Security Disability" data-dot="1"></button>
+          <button class="hero__dot" type="button" role="tab" aria-selected="false" aria-label="Show Mass Tort" data-dot="2"></button>
+        </div>
+
+        <div class="hero__stats">
+          <div><div class="hero__stat-num">15K+</div><div class="hero__stat-label">Leads Delivered</div></div>
+          <div><div class="hero__stat-num">$5M+</div><div class="hero__stat-label">Case Value Generated</div></div>
+          <div><div class="hero__stat-num">18%</div><div class="hero__stat-label">Lead-to-Retainer Rate</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         LOGO STRIP — swap wordmarks for real partner logos
+         ================================================================== -->
+    <section class="section--tight logos" aria-label="Trusted by leading firms">
+      <div class="container">
+        <p>Trusted by over 5 law firms</p>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         VERTICALS
+         ================================================================== -->
+    <section class="section" id="verticals">
+      <div class="container">
+        <div class="section-head">
+          <span class="badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
+            Vertical Expertise
+          </span>
+          <h2 class="h1">Built Around the Cases You Actually Want</h2>
+          <p class="lead">Every vertical has its own intake criteria, compliance rules, and economics. We run each one as its own operation, with media buying and routing tuned to what your firm signs.</p>
+        </div>
+
+        <div class="verticals__grid">
+
+          <!-- MVA -->
+          <article class="card card--tint vcard" style="--tint-a: rgba(47,106,75,0.10); --tint-b: rgba(200,169,126,0.06);">
+            <div class="vcard__head">
+              <div class="icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+              </div>
+              <div>
+                <h3 class="h3">Motor Vehicle Accident</h3>
+                <div class="vcard__meta">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                  Personal Injury
+                </div>
+              </div>
+            </div>
+            <p class="vcard__desc">Exclusive MVA leads and live transfers screened for fault, injury, and treatment before they hit your intake line.</p>
+              <div class="vcard__stats">
+              <div class="vcard__stat"><div class="vcard__stat-num">82%</div><div class="vcard__stat-label">Contact Rate</div></div>
+              <div class="vcard__stat"><div class="vcard__stat-num">18%</div><div class="vcard__stat-label">Lead-to-Retainer</div></div>
+              <div class="vcard__stat"><div class="vcard__stat-num">&lt;60s</div><div class="vcard__stat-label">Delivery Speed</div></div>
+            </div>
+            <div class="vcard__features">
+              <h4>Campaign types</h4>
+              <div class="chips"><span class="chip">Exclusive Data</span><span class="chip">Live Transfer</span><span class="chip">Commercial</span><span class="chip">Catastrophic</span></div>
+            </div>
+            <a class="btn btn--primary btn--full" href="#contact">Learn More About MVA
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- SSDI -->
+          <article class="card card--tint vcard" style="--tint-a: rgba(200,169,126,0.14); --tint-b: rgba(47,106,75,0.05);">
+            <div class="vcard__head">
+              <div class="icon-box icon-box--tan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+              </div>
+              <div>
+                <h3 class="h3">Social Security Disability</h3>
+                <div class="vcard__meta">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                  SSDI &amp; SSI
+                </div>
+              </div>
+            </div>
+            <p class="vcard__desc">Claimants pre-screened on age, work credits, and current treatment, with real-time posting into your CRM or dialer.</p>
+            <div class="vcard__stats">
+              <div class="vcard__stat"><div class="vcard__stat-num">✓</div><div class="vcard__stat-label">Work-History Qualified</div></div>
+              <div class="vcard__stat"><div class="vcard__stat-num">✓</div><div class="vcard__stat-label">No Attorney Filter</div></div>
+              <div class="vcard__stat"><div class="vcard__stat-num">✓</div><div class="vcard__stat-label">Real-Time Post &amp; Ping</div></div>
+            </div>
+            <div class="vcard__features">
+              <h4>Campaign types</h4>
+              <div class="chips"><span class="chip">Data Leads</span><span class="chip">Warm Transfer</span><span class="chip">Initial Claim</span><span class="chip">Appeal</span></div>
+            </div>
+            <a class="btn btn--primary btn--full" href="#contact">Learn More About SSDI
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </article>
+
+          <!-- Mass Tort -->
+          <article class="card card--tint vcard" style="--tint-a: rgba(27,58,41,0.12); --tint-b: rgba(233,220,196,0.4);">
+            <div class="vcard__head">
+              <div class="icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <h3 class="h3">Mass Tort</h3>
+                <div class="vcard__meta">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                  Active Dockets
+                </div>
+              </div>
+            </div>
+            <p class="vcard__desc">Campaigns run to your exact criteria, with intake and records support so you pay for compensable plaintiffs rather than raw volume.</p>
+            <div class="vcard__stats">
+              <div class="vcard__stat"><div class="vcard__stat-num">✓</div><div class="vcard__stat-label">Criteria-Matched Leads</div></div>
+              <div class="vcard__stat"><div class="vcard__stat-num">✓</div><div class="vcard__stat-label">Full Intake Support</div></div>
+              <div class="vcard__stat"><div class="vcard__stat-num">✓</div><div class="vcard__stat-label">Click-to-Retainer Reporting</div></div>
+            </div>
+            <div class="vcard__features">
+              <h4>Current campaigns</h4>
+              <div class="chips"><span class="chip">Roundup</span><span class="chip">Rideshare</span><span class="chip">Roblox</span></div>
+            </div>
+            <a class="btn btn--primary btn--full" href="#contact">Learn More About Mass Tort
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         PROOF: stats, compliance
+         ================================================================== -->
+    <section class="section" id="proof">
+      <div class="container">
+        <div class="section-head">
+          <span class="badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+            Trusted by Law Firms
+          </span>
+          <h2 class="h1">Proof in Performance, Trust in Results</h2>
+          <p class="lead">We're measured on what our partners sign, not on what we send. Here's how that's gone so far.</p>
+        </div>
+
+        <div class="proof__stats">
+          <div class="card stat-card">
+            <div class="stat-card__num">$5M+</div>
+            <div class="stat-card__title">Case Value Generated</div>
+            <div class="stat-card__desc">For partner firms across all verticals</div>
+          </div>
+          <div class="card stat-card">
+            <div class="stat-card__num">15K+</div>
+            <div class="stat-card__title">Leads Delivered</div>
+            <div class="stat-card__desc">Routed in real time, every one attributed</div>
+          </div>
+          <div class="card stat-card">
+            <div class="stat-card__num">18%</div>
+            <div class="stat-card__title">Lead-to-Retainer</div>
+            <div class="stat-card__desc">Average across partner firms</div>
+          </div>
+          <div class="card stat-card">
+            <div class="stat-card__num">100%</div>
+            <div class="stat-card__title">In-House Traffic</div>
+            <div class="stat-card__desc">Every lead from campaigns we run ourselves</div>
+          </div>
+        </div>
+
+        <!-- Compliance & standards (Palo's "Awards & Certifications" slot) -->
+        <div class="awards">
+          <h3 class="h2">Compliance &amp; Standards</h3>
+          <div class="awards__grid">
+            <div class="award">
+              <div class="award__ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></div>
+              <h4>TCPA Compliant</h4>
+              <p>Express written consent captured on every lead</p>
+            </div>
+            <div class="award">
+              <div class="award__ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l2 2 4-4"/></svg></div>
+              <h4>Consent Certification</h4>
+              <p>Third-party certified consent tokens on file</p>
+            </div>
+            <div class="award">
+              <div class="award__ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+              <h4>Data Security</h4>
+              <p>Encrypted delivery and access-controlled storage</p>
+            </div>
+            <div class="award">
+              <div class="award__ring"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+              <h4>In-House Traffic</h4>
+              <p>Every source is ours — no third-party lead resale</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         WHY KRW
+         ================================================================== -->
+    <section class="section why" id="why">
+      <div class="container">
+        <div class="section-head">
+          <span class="badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+            Why Choose KRW
+          </span>
+          <h2 class="h1">The Difference That Drives Results</h2>
+          <p class="lead">We're not a lead marketplace or a broker. Every lead we deliver comes from campaigns we built and run ourselves, so quality is our responsibility from first click to signed retainer.</p>
+        </div>
+
+        <div class="why__grid">
+          <article class="card card--tint wcard" style="--tint-a: rgba(47,106,75,0.10); --tint-b: rgba(200,169,126,0.04);">
+            <div class="wcard__head">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+              <h3 class="h4">Vertical-Specific Expertise</h3>
+            </div>
+            <p class="wcard__desc">MVA, SSDI, and mass tort each have different criteria, compliance rules, and economics. We run them as separate operations.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Criteria built with your intake team</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>State and docket-level targeting</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Dedicated campaigns for each vertical</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Sign-rate reporting by source</li>
+            </ul>
+          </article>
+
+          <article class="card card--tint wcard" style="--tint-a: rgba(200,169,126,0.14); --tint-b: rgba(47,106,75,0.04);">
+            <div class="wcard__head">
+              <div class="icon-box icon-box--tan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg></div>
+              <h3 class="h4">Real-Time Routing</h3>
+            </div>
+            <p class="wcard__desc">Our own routing platform posts leads into your CRM or dialer in seconds, with ping-post, caps, and filters you control.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Direct CRM and dialer integrations</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Daily caps and hour-of-day schedules</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Duplicate and DNC suppression</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Live delivery and return dashboards</li>
+            </ul>
+          </article>
+
+          <article class="card card--tint wcard" style="--tint-a: rgba(27,58,41,0.12); --tint-b: rgba(233,220,196,0.35);">
+            <div class="wcard__head">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+              <h3 class="h4">One Point of Contact</h3>
+            </div>
+            <p class="wcard__desc">You deal with a person, not a portal. Your account lead manages campaigns, quality, and returns so your team can focus on signing.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Dedicated account lead</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Same-day response on returns</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Weekly quality reviews</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Direct line to leadership</li>
+            </ul>
+          </article>
+
+          <article class="card card--tint wcard" style="--tint-a: rgba(200,169,126,0.10); --tint-b: rgba(27,58,41,0.06);">
+            <div class="wcard__head">
+              <div class="icon-box icon-box--tan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></div>
+              <h3 class="h4">Performance Pricing</h3>
+            </div>
+            <p class="wcard__desc">Pay per qualified lead, transfer, or signed case. No retainers, no minimum ad spend, and a return policy we actually honor.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Cost per lead, transfer, or retainer</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Transparent return windows</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Start small, scale on results</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Continuous source optimization</li>
+            </ul>
+          </article>
+
+          <article class="card card--tint wcard" style="--tint-a: rgba(47,106,75,0.10); --tint-b: rgba(200,169,126,0.06);">
+            <div class="wcard__head">
+              <div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></div>
+              <h3 class="h4">Compliance First</h3>
+            </div>
+            <p class="wcard__desc">Because we own the traffic, we control the consent. Every lead carries documented, certified consent. Compliance isn't a checkbox for us — it's the product.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>TCPA consent on every record</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Certified consent tokens stored</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Owned landing pages and forms</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Encrypted lead delivery</li>
+            </ul>
+          </article>
+
+          <article class="card card--tint wcard" style="--tint-a: rgba(200,169,126,0.14); --tint-b: rgba(47,106,75,0.05);">
+            <div class="wcard__head">
+              <div class="icon-box icon-box--tan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></div>
+              <h3 class="h4">In-House Media Buying</h3>
+            </div>
+            <p class="wcard__desc">We don't resell anyone else's leads. Our team runs the ads, builds the funnels, and owns every step between the click and your intake line.</p>
+            <ul class="check-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Paid search, social, and native in house</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Landing pages built and tested by us</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>No third-party or aggregated data</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Fast creative and targeting changes</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="cta-box">
+          <h3 class="h2">Ready to Experience the Difference?</h3>
+          <p class="lead">Join the firms that have made KRW their long-term intake partner. Tell us your criteria and we'll come back with a plan and a price.</p>
+          <a class="btn btn--light" href="#contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            Get Your Custom Campaign Plan
+          </a>
+          <div class="cta-box__stats">
+            <div><div class="cta-box__num">15K+</div><div class="cta-box__label">Leads Delivered</div></div>
+            <div><div class="cta-box__num">$5M+</div><div class="cta-box__label">Case Value Generated</div></div>
+            <div><div class="cta-box__num">18%</div><div class="cta-box__label">Lead-to-Retainer Rate</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================
+         FINAL CTA
+         ================================================================== -->
+    <section class="section final" id="contact">
+      <div class="container">
+        <h2 class="h1">Ready to Grow Your Case Volume?</h2>
+        <p class="lead">Tell us your intake criteria and target cost per case. We'll come back with a plan, a price, and a start date.</p>
+
+        <ul class="final__checks">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Free 30-minute campaign consultation</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Custom criteria and pricing for your vertical</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>No minimums or long-term commitment</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>Same-day response</li>
+        </ul>
+
+        <a class="btn btn--tan" href="mailto:kyler@krwmarketingsolutions.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+          Schedule Your Free Consultation
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+
+        <div class="final__direct">
+          <p>Prefer to reach out directly?</p>
+                    <a href="mailto:kyler@krwmarketingsolutions.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            kyler@krwmarketingsolutions.com
+          </a>
+        </div>
+
+        <div class="final__stats">
+          <div><div class="final__stat-num">15K+</div><div class="final__stat-label">Leads Delivered</div></div>
+          <div><div class="final__stat-num">$5M+</div><div class="final__stat-label">Case Value Generated</div></div>
+          <div><div class="final__stat-num">18%</div><div class="final__stat-label">Lead-to-Retainer Rate</div></div>
+        </div>
+
+        <p class="final__closing">Your competitors are already buying exclusive leads. The question isn't whether to invest in intake — it's who you trust to fill it.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================================================================
+       FOOTER
+       ================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <div class="brand">
+            <span class="brand__mark">KRW</span>
+            <span>
+              <span class="brand__name">KRW</span>
+              <span class="brand__sub">MARKETING SOLUTIONS</span>
+            </span>
+          </div>
+          <p class="footer__about">Performance lead generation for plaintiff-side law firms. We generate, qualify, and route exclusive leads in house across MVA, SSDI, and Mass Tort.</p>
+        </div>
+        <div>
+          <h4>Site Navigation</h4>
+          <div class="footer__cols">
+            <ul>
+              <li><a href="#top">Home</a></li>
+              <li><a href="#proof">Case Studies</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#verticals">Motor Vehicle Accident</a></li>
+              <li><a href="#verticals">Social Security Disability</a></li>
+              <li><a href="#verticals">Mass Tort</a></li>
+            </ul>
+            <ul>
+              <li><a href="#why">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Cost Per Case Guide</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__mid">
+        <div>
+          <h4>Get In Touch</h4>
+          <ul>
+            <li><a href="mailto:kyler@krwmarketingsolutions.com">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              kyler@krwmarketingsolutions.com
+            </a></li>
+            <li><a href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              Los Angeles, California
+            </a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/kyler-w-36794b117/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>© 2026 KRW Marketing Solutions LLC. All rights reserved.</div>
+        <nav class="footer__policies" aria-label="Policies">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      // Mobile nav toggle
+      var toggle = document.querySelector('.nav__toggle');
+      var mobile = document.getElementById('mobileNav');
+      toggle.addEventListener('click', function () {
+        var open = mobile.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      mobile.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', function () {
+          mobile.classList.remove('is-open');
+          toggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Hero carousel
+      var slides = document.querySelectorAll('.hero__slide');
+      var dots = document.querySelectorAll('.hero__dot');
+      var current = 0;
+      var timer;
+
+      function show(i) {
+        slides.forEach(function (s, idx) { s.classList.toggle('is-active', idx === i); });
+        dots.forEach(function (d, idx) {
+          d.classList.toggle('is-active', idx === i);
+          d.setAttribute('aria-selected', idx === i ? 'true' : 'false');
+        });
+        current = i;
+      }
+      function next() { show((current + 1) % slides.length); }
+      function start() {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        timer = setInterval(next, 8000);
+      }
+      function stop() { clearInterval(timer); }
+
+      dots.forEach(function (d) {
+        d.addEventListener('click', function () {
+          stop();
+          show(parseInt(d.getAttribute('data-dot'), 10));
+          start();
+        });
+      });
+      start();
+    })();
+  </script>
+</body>
+</html>
